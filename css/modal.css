@@ -1,0 +1,33 @@
+#mask{  
+    z-index: 1000;
+    position: absolute; /* important */  
+    top: 0px; /* start from top */  
+    left: 0px; /* start from left */  
+    height: 100%; /* cover the whole page */  
+    width: 100%;  /* cover the whole page */  
+    display: none; /* don't show it '*/  
+    
+    /* styling below */  
+    background-color: black;  
+}  
+  
+.modal_window{  
+    position: absolute; /* important so we can position it on center later */
+    display: none; /* don't show it */  
+  
+    /* styling below */  
+    top: 50% !important;
+    left: 50% !important;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-left: -200px;
+    margin-top: -150px;
+    z-index: 10001;
+    color: #ddd;
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.modal_window .social-links a { font-size: 2rem; }
