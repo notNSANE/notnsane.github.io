@@ -1084,9 +1084,8 @@ header .logo a {
         font-size: 4rem; 
         margin: 0 -1rem;
     }
-    footer {
-        text-align: center;
-    }
+    footer { text-align: center; }
+    footer .extra ul { text-align: center !important;  }
 }
 
 /*# sourceMappingURL=main.css.map */
