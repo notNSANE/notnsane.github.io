@@ -1073,12 +1073,20 @@ header .logo a {
 @media only screen and (max-width:600px) {
     .main-content .logo { margin-top: -20rem; }
 	.main-content h2 { font-size: 2.4rem; }
-    .social-links li { font-size: 5rem; }
+    .social-links li { 
+        font-size: 5rem;
+        margin: 0 -0.6rem;}
 }
 @media only screen and (max-width:400px) {
     .main-content .logo { margin-top: -30rem; }
 	.main-content h2 { font-size: 2.2rem; }
-    .social-links li { font-size: 4rem; }
+    .social-links li {
+        font-size: 4rem; 
+        margin: 0 -1rem;
+    }
+    footer {
+        text-align: center;
+    }
 }
 
 /*# sourceMappingURL=main.css.map */
