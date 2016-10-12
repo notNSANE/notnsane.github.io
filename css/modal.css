@@ -1,4 +1,4 @@
-#mask{  
+#mask {  
     z-index: 1000;
     position: absolute; /* important */  
     top: 0px; /* start from top */  
@@ -11,7 +11,7 @@
     background-color: black;  
 }  
   
-.modal_window{  
+.modal_window {  
     position: absolute; /* important so we can position it on center later */
     display: none; /* don't show it */  
   
@@ -31,3 +31,13 @@
 }
 
 .modal_window .social-links a { font-size: 2rem; }
+
+@media only screen and (max-width:768px) {
+    .modal_window { margin-top: -20rem; }
+}
+@media only screen and (max-width:600px) {
+    .modal_window { margin-top: -25rem; }
+}
+@media only screen and (max-width:400px) {
+    .modal_window { margin-top: -35rem; }
+}
