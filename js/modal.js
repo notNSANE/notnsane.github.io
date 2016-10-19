@@ -23,7 +23,7 @@ $('.modal_window').each(function(){
           //get the id of the modal window stored in the name of the activating element  
           var modal_id = $(this).attr('name');  
           //use the function to show it  
-          show_modal(modal_id);  
+          show_modal(modal_id);
     });  
   
     $('.close_modal').click(function(){  
@@ -46,8 +46,8 @@ function close_modal(){
 function show_modal(modal_id){  
     //set display to block and opacity to 0 so we can use fadeTo  
     $('#mask').css({ 'display' : 'block', opacity : 0});  
-    //fade in the mask to opacity 0.8  
-    $('#mask').fadeTo(350,0.8);  
+    //fade in the mask to opacity 0.9  
+    $('#mask').fadeTo(350,0.9);  
      //show the modal window  
     $('#'+modal_id).fadeIn(350);  
 }

@@ -8,7 +8,7 @@
     display: none; /* don't show it '*/  
     
     /* styling below */  
-    background-color: black;  
+    background-color: black;
 }  
   
 .modal_window {  
@@ -18,15 +18,13 @@
     /* styling below */  
     top: 50% !important;
     left: 50% !important;
-    border-radius: 15px;
     width: 400px;
-    height: 300px;
     margin-left: -200px;
-    margin-top: -150px;
+    margin-top: -200px;
     z-index: 10001;
-    color: #ddd;
+    color: #bbb;
     font-size: 2rem;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 

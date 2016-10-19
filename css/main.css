@@ -80,13 +80,11 @@ a, a:visited {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-a:hover, a:focus {
-	color: #f0f;
-}
+a:hover, a:focus { 	color: #f0f; }
 
-a:hover .twitter {
-    color: #0ff;
-}
+a:hover.twitter { color: #0ff; }
+
+a:hover.medium { color: chartreuse; }
 
 /** 
  * ===================================================================
